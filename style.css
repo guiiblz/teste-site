@@ -3,11 +3,11 @@
     box-sizing: border-box;
 }
 nav{
-    border-top: 4px solid green;
+    border-top: 4px solid rgb(0, 215, 130);
     /* deixa o nav em formato flex e deixa lado-a-lado os elementos dentro dele */
     display: flex;
     /* centraliza na horizontal */
-    justify-content: left;
+    justify-content: space-between;
     /* centraliza na vertical */
     align-items: center;
 
@@ -16,7 +16,7 @@ nav{
     /* altura */
     height: 60px;
     /* cor do plano de fundo */
-    background-color: rgb(230,230,230);
+    background-color: rgb(240, 235, 235);
     padding: 0px 20px;
     
 }
@@ -31,4 +31,27 @@ nav div{
     color: black;
     font-family: Roboto, sans-serif;
     font-weight: bold;
+}
+#logo{
+    height: 40px;
+}
+.icons{
+    height: 30px;
+    
+}
+.caixa{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+.um{
+    gap: 15px;
+}
+.tres{
+    justify-content: end;
+    gap: 15px;
+}
+#chata{
+    height: 600px;
+    
 }
